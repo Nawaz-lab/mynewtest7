@@ -1,0 +1,8 @@
+#! /bin/bash
+
+read -p 'user: ' user_val
+read -sp 'pass: ' pass_val
+
+echo "username: $user_val"
+echo "Password: $pass_val"
+
