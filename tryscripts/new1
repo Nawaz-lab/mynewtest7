@@ -1,0 +1,14 @@
+#!/bin/bash
+## Author: Nawaz Attar
+## Dtae: 7th Aug 2020
+##Script: to check if dir is exist and if not, it will create one
+
+echo "Enter directory name"
+read ndir
+if [ -d "$ndir" ]
+then
+echo "directoy is already exist"
+else
+`mkdir $ndir`
+echo "director is created"
+fi
