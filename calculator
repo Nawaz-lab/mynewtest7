@@ -1,0 +1,23 @@
+#!/bin/bash
+## Author: Nawaz Attar
+## Date: 8th Aug 2020
+## Script: Calculator
+
+echo "This is calculator, enter any two numbers and see the magic" 
+echo "Enter 1st number: "
+read a
+echo "Enter 2nd number: "
+read b
+val=`expr $a + $b`
+echo "Addition of the numbers is : $val"
+
+val=`expr $a - $b`
+echo "substraction of the numbers is : $val"
+
+val=`expr $a \* $b`
+echo "Multiplication of the numbers is : $val"
+
+val=`expr $a / $b`
+echo "Devision of the numbers is : $val"
+
+
